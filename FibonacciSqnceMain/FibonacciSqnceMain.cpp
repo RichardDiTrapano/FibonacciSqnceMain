@@ -13,6 +13,7 @@ int main() {
 	while (sum <= 1000) {
 		sum = numOne + numTwo;
 		numOne = numTwo;
+		numTwo = sum;
 		cout << sum;
 	}
 
