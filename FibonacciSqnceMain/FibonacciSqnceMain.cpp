@@ -10,11 +10,12 @@ int main() {
 	numOne = 0;
 	numTwo = 1;
 
-	while (sum <= 1000) {
+	while (sum < 1000) {
 		sum = numOne + numTwo;
 		numOne = numTwo;
 		numTwo = sum;
 		cout << sum;
+		cout << " \n";
 	}
 
 }
